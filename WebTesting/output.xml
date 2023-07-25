@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1 (Python 3.11.4 on darwin)" generated="20230725 11:52:28.703" rpa="false" schemaversion="4">
+<suite id="s1" name="Amazon Testes" source="/Users/alexandredasilva/Documents/CursoUdemy/RobortFramework/WebTesting/amazon_testes.robot">
+<test id="s1-t1" name="Caso de Teste 01 - Acesso ao menu &quot;Eletrônicos&quot;" line="11">
+<kw name="Abrir o navegador" library="amazon_resources" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230725 11:52:28.804" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg timestamp="20230725 11:52:28.804" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230725 11:52:28.804" level="FAIL">TypeError: WebDriver.__init__() got an unexpected keyword argument 'service_log_path'</msg>
+<status status="FAIL" starttime="20230725 11:52:28.804" endtime="20230725 11:52:28.806"/>
+</kw>
+<status status="FAIL" starttime="20230725 11:52:28.804" endtime="20230725 11:52:28.806"/>
+</kw>
+<doc>Esse teste verifica o menu eletrônicos do site amazon.com
+e verifica a categoria Computadores e Informática</doc>
+<tag>menus categorias</tag>
+<status status="FAIL" starttime="20230725 11:52:28.803" endtime="20230725 11:52:28.806">Setup failed:
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'service_log_path'</status>
+</test>
+<doc>Essa suite testa o site da amazon.com</doc>
+<status status="FAIL" starttime="20230725 11:52:28.705" endtime="20230725 11:52:28.807"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">menus categorias</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Amazon Testes">Amazon Testes</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
